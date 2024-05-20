@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.header{
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo, .menu { 
+    padding: 10px;
+
+}
+
+.menu a, .menu a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.menu a:hover{
+    background-color: rgb(0, 0, 0);  ;
+    color: yellow ;
+    
+}
+
+
+
+.containercode{
+    background-color:rgb(226, 226, 226);
+    width: 1000px;
+    margin: 0 auto;
+    padding: 150px;
+    text-align: center;
+}
+
+
+.code{
+    padding: 20px;
+    
+}
+
+
+
+

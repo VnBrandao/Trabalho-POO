@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.header{
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo, .menu { 
+    padding: 10px;
+
+}
+
+.menu a, .menu a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.menu a:hover{
+    background-color: rgb(0, 0, 0);  ;
+    color: yellow ;
+    
+}
+
+.containersite{
+    background-color:rgb(226, 226, 226);
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.posts{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.post{
+    padding: 20px;
+    
+}
+.post p{
+    margin: 10px 0;
+}
+
+
+.datapost{
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.barra-lateral{
+    width: 380px;
+    background-color: rgb(248, 248, 248);
+    float: right;
+    text-align: center;
+}
+
+.unidades{
+    margin: 10px;
+    padding: 10px;
+}
+.unidades h2{
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.unidade p{
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: larger;
+}
